@@ -117,13 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+  <data name="Address" xml:space="preserve">
+    <value>Deukouway</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
+  <data name="City" xml:space="preserve">
+    <value>Gokh</value>
   </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="CompleteOrder" xml:space="preserve">
+    <value>Mattal ndieund mi</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Reew</value>
+  </data>
+  <data name="EnterDetails" xml:space="preserve">
+    <value>Té niongui toppato sam ndieund legui! </value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Berab</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tour</value>
+  </data>
+  <data name="OrderTitle" xml:space="preserve">
+    <value>Duggalale formileer gui</value>
+  </data>
+  <data name="ShipSoon" xml:space="preserve">
+    <value>Niongui lay tontou leegui nii</value>
+  </data>
+  <data name="ShipTo" xml:space="preserve">
+    <value>Yoneko</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Pasu bataaxal</value>
   </data>
 </root>

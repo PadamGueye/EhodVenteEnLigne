@@ -117,13 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+  <data name="MissingName" xml:space="preserve">
+    <value>Dougalal tour wi</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
+  <data name="MissingPrice" xml:space="preserve">
+    <value>Dougalal ndieug mi</value>
   </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="MissingStock" xml:space="preserve">
+    <value>Duggalal li fii nek si yeuf mi</value>
+  </data>
+  <data name="PriceNotANumber" xml:space="preserve">
+    <value>Mbir binga dougal dagn kay wagn</value>
+  </data>
+  <data name="PriceNotGreaterThanZero" xml:space="preserve">
+    <value>Ndieug mi meunoul gueneu touti dara</value>
+  </data>
+  <data name="StockNotAnInteger" xml:space="preserve">
+    <value>Mbir binga douguel mo wara eupp dara</value>
+  </data>
+  <data name="StockNotGreaterThanZero" xml:space="preserve">
+    <value>Yeuf yii meunoul neeen</value>
   </data>
 </root>

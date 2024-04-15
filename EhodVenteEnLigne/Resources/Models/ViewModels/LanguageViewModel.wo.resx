@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+    <value>Angale</value>
   </data>
   <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
+    <value>Faransé</value>
   </data>
   <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+    <value>Olof</value>
   </data>
 </root>

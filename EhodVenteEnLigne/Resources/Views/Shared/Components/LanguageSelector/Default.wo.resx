@@ -117,13 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Tann leen</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>laak</value>
+  </data>
   <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+    <value>Angalé</value>
   </data>
   <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
+    <value>Faransé</value>
   </data>
   <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+    <value>Olof</value>
   </data>
 </root>
