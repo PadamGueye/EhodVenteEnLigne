@@ -27,14 +27,14 @@ namespace EhodBoutiqueEnLigne.Models.Services
         }
         public List<ProductViewModel> GetAllProductsViewModel()
         {
-             
+
             IEnumerable<Product> productEntities = GetAllProducts();
             return MapToViewModel(productEntities);
         }
 
         private static List<ProductViewModel> MapToViewModel(IEnumerable<Product> productEntities)
         {
-            List <ProductViewModel> products = new List<ProductViewModel>();
+            List<ProductViewModel> products = new List<ProductViewModel>();
             foreach (Product product in productEntities)
             {
                 products.Add(new ProductViewModel
@@ -83,7 +83,7 @@ namespace EhodBoutiqueEnLigne.Models.Services
         }
         public void UpdateProductQuantities()
         {
-            Cart cart = (Cart) _cart;
+            Cart cart = (Cart)_cart;
             foreach (CartLine line in cart.Lines)
             {
                 _productRepository.UpdateProductStocks(line.Product.Id, line.Quantity);
@@ -143,13 +143,23 @@ namespace EhodBoutiqueEnLigne.Models.Services
             Product productEntity = new Product
             {
                 Name = product.Name,
-                Price = double.Parse(product.Price),
-                Quantity = Int32.Parse(product.Stock),
                 Description = product.Description,
                 Details = product.Details
             };
+
+            if (double.TryParse(product.Price.Replace(',', '.'), NumberStyles.Any, CultureInfo.InvariantCulture, out double price))
+            {
+                productEntity.Price = price;
+            }
+
+            if (!string.IsNullOrWhiteSpace(product.Stock) && int.TryParse(product.Stock, out int quantity))
+            {
+                productEntity.Quantity = quantity;
+            }
+
             return productEntity;
         }
+
 
         public void DeleteProduct(int id)
         {
